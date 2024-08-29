@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6464f7c61995d4abd77d04e5be2d24, type: 3}
+  m_Name: FireAbility
+  m_EditorClassIdentifier: 
+  AbilityIcon: {fileID: 21300000, guid: a77e13df872b20f49b62c6697a1b3db1, type: 3}
+  staminaCost: 30
+  cooldownDuration: 8
+  AbilityAudio: {fileID: 8300000, guid: dc1f387797392cb4eb5e07ad49f8ac0b, type: 3}
+  volume: 1
+  ScanerPrefab: {fileID: 81366899849941832, guid: a5f36c3517d7cb346944071758e5985c,
+    type: 3}
+  fireRadius: 20
+  fireDuration: 0.5
+  damageDuration: 3
+  fireDamage: 60
+  ScanVFX: {fileID: 1687799100201466535, guid: 912aadd7276bb314e8092d97858efd7f, type: 3}
+  DamageVFX: {fileID: 100004, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
